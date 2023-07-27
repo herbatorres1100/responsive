@@ -63,10 +63,11 @@ header {
 .threecards {
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 20px;
   margin: 100px auto 0 auto;
   justify-content: space-evenly;
-  flex: 1 0 100%;
+  flex: 1;
 }
 
 .leftcard {
@@ -154,6 +155,7 @@ header {
 .icon-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 100px;
   margin-top: 40px;
   flex-wrap: wrap;
@@ -350,13 +352,13 @@ hr {
 @media (max-width: 900px) {
   .threecards {
   display: flex;
-  flex-wrap: wrap;
+  
   flex-direction: column;
   gap: 20px;
   margin: 100px auto 0 auto;
   justify-content: center;
   align-items: center;
-  flex: 1 0 100%;
+  flex: 1;
 }
 
 .icon-container {
@@ -372,32 +374,38 @@ hr {
   display:flex;
   flex-direction: row;
   align-items: center;
+  margin-left: 20px;
 }
 
 .leftcard > p {
-  text-align: center;
+  text-align: left;
   width: 300px;
+  margin-left: 20px;
 }
 
 .middlecard {
   display:flex;
   flex-direction: row;
   align-items: center;
+  margin-left: 20px;
 }
 
 .middlecard > p {
   text-align: left;
   width: 300px;
+  margin-left: 20px;
 }
 .rightcard {
   display:flex;
   flex-direction: row;
   align-items: center;
+  margin-left: 20px;
 }
 
 .rightcard > p {
   text-align: left;
   width: 300px;
+  margin-left: 20px;
 }
 }
 
